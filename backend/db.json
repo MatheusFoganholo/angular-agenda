@@ -1,0 +1,19 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Teclado Mecânico Redragon Varuna",
+      "price": 250.9
+    },
+    {
+      "id": 2,
+      "name": "Mouse Redragon M106 Griffin",
+      "price": 99.9
+    },
+    {
+      "id": 3,
+      "name": "Headset Edifier G4 Pro",
+      "price": 334.9
+    }
+  ]
+}
