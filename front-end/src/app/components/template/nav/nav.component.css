@@ -1,0 +1,13 @@
+.sidenav {
+  background-color: var(--side-nav-color);
+  width: 200px;
+}
+
+.sidenav a {
+  color: var(--white-color);
+}
+
+.sidenav i {
+  margin-right: 10px;
+  vertical-align: middle;
+}
