@@ -2,7 +2,7 @@
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
-/* Variable */
+/* Variables */
 :root {
   --primary-color: #EA5455;
   --secondary-color:  #2E47D3;
