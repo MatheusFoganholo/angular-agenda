@@ -1,10 +1,10 @@
 .sidenav {
-  background-color: var(--side-nav-color);
+  background-color: var(--secondary-color);
   width: 200px;
 }
 
 .sidenav a {
-  color: var(--white-color);
+  color: var(--white);
 }
 
 .sidenav i {
