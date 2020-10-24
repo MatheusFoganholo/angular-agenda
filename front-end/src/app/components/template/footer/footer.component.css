@@ -1,0 +1,17 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  font-size: 1.1rem;
+}
+
+.footer span i {
+  color: var(--primary-color);
+  vertical-align: middle;
+}
+
+.footer #dev {
+  text-decoration: none;
+  color: var(--primary-color);
+}
