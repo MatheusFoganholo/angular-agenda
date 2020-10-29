@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './views/home/home.component';
 import { HeaderComponent } from './components/template/header/header.component';
+import { ContactCrudComponent } from './views/contact-crud/contact-crud.component';
 import { FooterComponent } from './components/template/footer/footer.component';
 import { NavComponent } from './components/template/nav/nav.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -17,6 +18,7 @@ import { MatCardModule } from '@angular/material/card';
   declarations: [
     AppComponent,
     HomeComponent,
+    ContactCrudComponent,
     HeaderComponent,
     FooterComponent,
     NavComponent
