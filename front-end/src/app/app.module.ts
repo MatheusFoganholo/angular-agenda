@@ -7,12 +7,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './views/home/home.component';
 import { HeaderComponent } from './components/template/header/header.component';
 import { ContactCrudComponent } from './views/contact-crud/contact-crud.component';
+import { ContactCreateComponent } from './components/contact/contact-create/contact-create.component';
 import { FooterComponent } from './components/template/footer/footer.component';
 import { NavComponent } from './components/template/nav/nav.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,8 @@ import { MatCardModule } from '@angular/material/card';
     ContactCrudComponent,
     HeaderComponent,
     FooterComponent,
-    NavComponent
+    NavComponent,
+    ContactCreateComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +33,8 @@ import { MatCardModule } from '@angular/material/card';
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

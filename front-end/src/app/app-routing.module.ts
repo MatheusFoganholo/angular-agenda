@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { HomeComponent } from './views/home/home.component';
 import { ContactCrudComponent } from './views/contact-crud/contact-crud.component';
+import { ContactCreateComponent } from './components/contact/contact-create/contact-create.component';
 
 const routes: Routes = [
   {
@@ -12,6 +13,10 @@ const routes: Routes = [
   {
     path: "contacts",
     component: ContactCrudComponent
+  },
+  {
+    path: "contacts/create",
+    component: ContactCreateComponent
   }
 ];
 

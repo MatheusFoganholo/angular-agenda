@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-contact-crud',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactCrudComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
+  }
+
+  navigateToContactCreate(): void {
+    this.router.navigate(['/contacts/create']);
   }
 
 }
