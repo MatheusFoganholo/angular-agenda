@@ -4,13 +4,15 @@
       "id": 1,
       "name": "Matheus Foganholo",
       "ddd": 14,
-      "number": 998102184
+      "number": 998102184,
+      "address": "Avenida Brasil, 250"
     },
     {
       "id": 2,
       "name": "Elís Peruchi",
       "ddd": 14,
-      "number": 990987742
+      "number": 990987742,
+      "address": "Rua das Flores, 139"
     }
   ]
 }
