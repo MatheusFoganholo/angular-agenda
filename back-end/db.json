@@ -4,13 +4,13 @@
       "id": 1,
       "name": "Matheus Foganholo",
       "ddd": 14,
-      "cellphone": 998102184
+      "number": 998102184
     },
     {
       "id": 2,
       "name": "Elís Peruchi",
       "ddd": 14,
-      "cellphone": 990987742
+      "number": 990987742
     }
   ]
 }
