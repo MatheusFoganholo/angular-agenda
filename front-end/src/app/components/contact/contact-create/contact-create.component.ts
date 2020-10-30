@@ -13,8 +13,8 @@ export class ContactCreateComponent implements OnInit {
 
   contact: Contact = {
     name: '',
-    ddd: 0,
-    number: 0,
+    ddd: null,
+    number: null,
     address: ''
   }
 
