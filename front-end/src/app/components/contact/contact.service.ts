@@ -21,7 +21,13 @@ export class ContactService {
     })
   }
 
+  // Create Contact Method
   create(contact: Contact): Observable<Contact> {
-    return this.http.post<Contact>(this.baseUrl, contact)
+    return this.http.post<Contact>(this.baseUrl, contact);
+  }
+
+  // Read Contacts Method
+  read(): Observable<Contact[]> {
+    return this.http.get<Contact[]>(this.baseUrl);
   }
 }
