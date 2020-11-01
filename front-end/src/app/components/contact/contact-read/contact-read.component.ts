@@ -10,7 +10,7 @@ import { Contact } from '../contact.model';
 export class ContactReadComponent implements OnInit {
 
   contacts: Contact[];
-  displayedColumns: string[] = ['id', 'name', 'number', 'address']
+  displayedColumns: string[] = ['id', 'name', 'number', 'address', 'action']
 
   constructor(private contactService: ContactService) {}
 

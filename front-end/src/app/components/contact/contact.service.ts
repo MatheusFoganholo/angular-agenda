@@ -30,4 +30,16 @@ export class ContactService {
   read(): Observable<Contact[]> {
     return this.http.get<Contact[]>(this.baseUrl);
   }
+
+  // Read Contact By Id Method
+  readById(id: string): Observable<Contact> {
+    const url = `${this.baseUrl}/${id}`
+    return this.http.get<Contact>(url);
+  }
+
+  // Update Contact Method
+  update(contact: Contact): Observable<Contact> {
+    const url = `${this.baseUrl}/${contact.id}`
+    return this.http.put<Contact>(url, contact);
+  }
 }
