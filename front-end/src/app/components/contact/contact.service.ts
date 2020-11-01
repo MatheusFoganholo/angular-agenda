@@ -39,7 +39,13 @@ export class ContactService {
 
   // Update Contact Method
   update(contact: Contact): Observable<Contact> {
-    const url = `${this.baseUrl}/${contact.id}`
+    const url = `${this.baseUrl}/${contact.id}`;
     return this.http.put<Contact>(url, contact);
+  }
+
+  // Delete Contact Method
+  delete(id: string): Observable<Contact> {
+    const url = `${this.baseUrl}/${id}`;
+    return this.http.delete<Contact>(id);
   }
 }
