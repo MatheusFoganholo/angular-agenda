@@ -1,3 +1,4 @@
+import { ContactUpdateComponent } from './components/contact/contact-update/contact-update.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
@@ -17,6 +18,10 @@ const routes: Routes = [
   {
     path: "contacts/create",
     component: ContactCreateComponent
+  },
+  {
+    path: "contacts/update/:id",
+    component: ContactUpdateComponent
   }
 ];
 
