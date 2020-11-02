@@ -1,0 +1,28 @@
+<mat-card>
+  <mat-card-title id="cnc-title">Excluir Contato</mat-card-title>
+  <form>
+    <!-- Name/Nome -->
+    <mat-form-field>
+      <input matInput placeholder="Nome" [value]="contact.name" name="name" disabled>
+    </mat-form-field>
+
+    <!-- DDD -->
+    <mat-form-field>
+      <input matInput placeholder="DDD" [value]="contact.ddd" name="ddd" disabled>
+    </mat-form-field>
+
+    <!-- Cellphone/Telephone Number -->
+    <!-- Número do Telefone/Celular -->
+    <mat-form-field>
+      <input matInput placeholder="Número" [value]="contact.number" name="number" disabled>
+    </mat-form-field>
+
+    <!-- Address/Endereço -->
+    <mat-form-field>
+      <input matInput placeholder="Endereço" [value]="contact.address" name="address" disabled>
+    </mat-form-field>
+
+  </form>
+  <button mat-raised-button (click)="deleteContact()" color="warn">Excluir Contato</button>
+  <button mat-raised-button (click)="cancel()">Cancelar</button>
+</mat-card>

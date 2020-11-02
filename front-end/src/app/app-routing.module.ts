@@ -5,6 +5,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './views/home/home.component';
 import { ContactCrudComponent } from './views/contact-crud/contact-crud.component';
 import { ContactCreateComponent } from './components/contact/contact-create/contact-create.component';
+import { ContactDeleteComponent } from './components/contact/contact-delete/contact-delete.component';
 
 const routes: Routes = [
   {
@@ -22,6 +23,10 @@ const routes: Routes = [
   {
     path: "contacts/update/:id",
     component: ContactUpdateComponent
+  },
+  {
+    path: "contacts/delete/:id",
+    component: ContactDeleteComponent
   }
 ];
 

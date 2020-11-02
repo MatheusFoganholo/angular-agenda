@@ -46,6 +46,6 @@ export class ContactService {
   // Delete Contact Method
   delete(id: string): Observable<Contact> {
     const url = `${this.baseUrl}/${id}`;
-    return this.http.delete<Contact>(id);
+    return this.http.delete<Contact>(url);
   }
 }

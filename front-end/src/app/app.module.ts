@@ -25,6 +25,7 @@ import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { ContactUpdateComponent } from './components/contact/contact-update/contact-update.component';
+import { ContactDeleteComponent } from './components/contact/contact-delete/contact-delete.component';
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import { ContactUpdateComponent } from './components/contact/contact-update/cont
     ContactCreateComponent,
     ContactReadComponent,
     ContactUpdateComponent,
+    ContactDeleteComponent,
   ],
   imports: [
     BrowserModule,

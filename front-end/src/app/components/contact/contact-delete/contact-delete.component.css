@@ -1,0 +1,16 @@
+#cnc-title {
+  margin-bottom: 15px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+button:nth-of-type(1) {
+  margin-right: 15px;
+}
+
+button {
+  margin-top: 10px;
+}
