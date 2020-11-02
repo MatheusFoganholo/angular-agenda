@@ -17,6 +17,4 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   --secondary-color-hover: #1d32a7;
   --white: #FFF;
   --black: #222;
-  --edit: #D9CD26;
-  --delete: #E35E6B;
 }
