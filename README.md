@@ -4,9 +4,8 @@ This is a small and basic project, where a simple crud (create, read, update, de
 
 To use and test the application, you must initially clone / download it. <br/>
 After that you must open the terminal in the application's root folder and navigate to the back-end by typing:
-~~~
-cd backend
-~~~
+    cd backend
+
 
 
 <hr>
