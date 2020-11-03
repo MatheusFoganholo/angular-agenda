@@ -15,7 +15,7 @@ And now, start the backend with:
 ```
 npm start
 ```
-Now let's go back to the front end with:
+Now, with another instance of the terminal, we will go to the "front-end" folder. If it is in the "back-end" folder, type:
 ```
 cd ../front-end
 ```
@@ -30,7 +30,7 @@ ng serve --open
 Hope you like it! Any criticism or suggestion is welcome!<br/>
 <hr>
 
-## Portuguese
+## 🇧🇷 Português/Portuguese (PT-BR)
 Este é um pequeno e básico projeto, onde foi criado um simples crud (create, read, update, delete) usando Angular. É uma aplicação de uma única página com um back-end simples que armazena o nome, o telefone e o endereço do contato.<br/>
 Para utilizar e testar a aplicação, você deve inicialmente cloná-la/baixá-la.<br/>
 Após isso você deve abrir o terminal na pasta raiz da aplicação e navegar até o back-end digitando:
@@ -46,7 +46,7 @@ E agora, iniciar o back-end com:
 ```
 npm start
 ```
-Agora vamos voltar para o front-end com:
+Agora, com outra instância do terminal, iremos para a pasta "front-end". Caso esteja na pasta "back-end" digite:
 ```
 cd ../front-end
 ```
