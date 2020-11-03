@@ -30,7 +30,7 @@ ng serve --open
 Hope you like it! Any criticism or suggestion is welcome!<br/>
 <hr>
 
-## 🇧🇷 Português/Portuguese (PT-BR)
+## Português/Portuguese (PT-BR)
 Este é um pequeno e básico projeto, onde foi criado um simples crud (create, read, update, delete) usando Angular. É uma aplicação de uma única página com um back-end simples que armazena o nome, o telefone e o endereço do contato.<br/>
 Para utilizar e testar a aplicação, você deve inicialmente cloná-la/baixá-la.<br/>
 Após isso você deve abrir o terminal na pasta raiz da aplicação e navegar até o back-end digitando:
