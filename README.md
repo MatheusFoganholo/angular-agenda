@@ -11,13 +11,29 @@ After that, you will have to install the project's dependencies, using the follo
 ```
 npm install
 ```
-
-
-
+And now, start the backend with:
+```
+npm start
+```
+Now let's go back to the front end with:
+```
+cd ../front-end
+```
+And install the front-end dependencies.
+```
+npm install
+```
+And now just start the front-end and test the application!
+```
+ng serve --open
+```
+Hope you like it! Any criticism or suggestion is welcome!<br/>
 <hr>
+
+## Portuguese
 Este é um pequeno e básico projeto, onde foi criado um simples crud (create, read, update, delete) usando Angular. É uma aplicação de uma única página com um back-end simples que armazena o nome, o telefone e o endereço do contato.<br/>
 Para utilizar e testar a aplicação, você deve inicialmente cloná-la/baixá-la.<br/>
-Após isso você deve abrir o terminal na pasta raiz da aplicação e navegar até o back-end digitando:<br/>
+Após isso você deve abrir o terminal na pasta raiz da aplicação e navegar até o back-end digitando:
 
 ```
 cd back-end
@@ -26,3 +42,20 @@ Após isso, você terá que instalar as dependências do projeto, utilizando o s
 ```
 npm install
 ```
+E agora, iniciar o back-end com:
+```
+npm start
+```
+Agora vamos voltar para o front-end com:
+```
+cd ../front-end
+```
+E instalar as dependências de front-end.
+```
+npm install
+```
+E agora basta iniciar o front-end e testar a aplicação!
+```
+ng serve --open
+```
+Espero que gostem! Qualquer crítica ou sugestão é bem vinda!
