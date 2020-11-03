@@ -2,6 +2,8 @@
 
 This is a small and basic project, where a simple crud (create, read, update, delete) using Angular was created. It is a single page application with a simple backend that stores the contact's name, phone and address.<br/>
 
+![](./Screenshot.png)
+
 To use and test the application, you must initially clone / download it. <br/>
 After that you must open the terminal in the application's root folder and navigate to the back-end by typing:
 ```
