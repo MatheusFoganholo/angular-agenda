@@ -1,4 +1,4 @@
-# angular-agenda 📞
+# ng-agenda 📞
 
 This is a small and basic project, where a simple crud (create, read, update, delete) using Angular was created. It is a single page application with a simple backend that stores the contact's name, phone and address.<br/>
 <strong>Note:</strong> This is a desktop application that is not responsive, that is, it will only work properly on large monitors.<br/>
