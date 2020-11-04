@@ -1,6 +1,7 @@
 .sidenav {
   background-color: var(--secondary-color);
-  width: 200px
+  width: 200px;
+  z-index: 1;
 }
 
 .nav-list {
@@ -24,6 +25,7 @@
 }
 
 .content {
+  margin-top: 64px;
   padding: 16px;
   background-color: var(--white);
 }

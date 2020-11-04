@@ -9,6 +9,7 @@ import { ContactService } from './../contact.service';
   templateUrl: './contact-create.component.html',
   styleUrls: ['./contact-create.component.css']
 })
+
 export class ContactCreateComponent implements OnInit {
 
   contact: Contact = {
@@ -19,19 +20,22 @@ export class ContactCreateComponent implements OnInit {
   }
 
   constructor(private contactService: ContactService, private router: Router) { }
+  ngOnInit(): void { }
 
-  ngOnInit(): void {}
-
+  // Saving contact at the back-end (method)
   saveContact(): void {
-    this.contactService.create(this.contact).subscribe(() => {
-      this.contactService.showMessage('Contato cadastrado com sucesso!');
-      this.router.navigate(['/contacts']);
-
-    });
+    if (this.contact.name === '' || this.contact.ddd === null || this.contact.number === null || this.contact.address === '') {
+      this.contactService.showMessage('Preencha todos os campos!', true)
+    } else {
+      this.contactService.create(this.contact).subscribe(() => {
+        this.contactService.showMessage('Contato cadastrado com sucesso!');
+        this.router.navigate(['/contacts']);
+      });
+    }
   }
 
+  // Cancel and back to the contacts page
   cancel(): void {
     this.router.navigate(['/contacts']);
   }
-
 }

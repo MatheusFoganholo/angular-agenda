@@ -15,7 +15,8 @@
     <!-- Number Column -->
     <ng-container matColumnDef="number">
       <th mat-header-cell *matHeaderCellDef>Telefone/Celular</th>
-      <td mat-cell *matCellDef="let row">({{row.ddd}}) {{row.number.toString().substring(0,5)}}-{{row.number.toString().substring(5)}}</td>
+      <td mat-cell *matCellDef="let row">({{row.ddd}})
+        {{row.number.toString().substr(0,5)}}-{{row.number.toString().substr(5)}}</td>
     </ng-container>
 
     <!-- Address Column -->

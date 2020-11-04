@@ -8,9 +8,15 @@ import { Contact } from './../contact.model';
   templateUrl: './contact-update.component.html',
   styleUrls: ['./contact-update.component.css']
 })
+
 export class ContactUpdateComponent implements OnInit {
 
-  contact: Contact;
+  contact: Contact = {
+    name: '',
+    ddd: null,
+    number: null,
+    address: ''
+  }
 
   constructor(private contactService: ContactService, private router: Router, private route: ActivatedRoute) { }
 
@@ -21,13 +27,19 @@ export class ContactUpdateComponent implements OnInit {
     });
   }
 
+  // Method to update the contact
   updateContact(): void {
-    this.contactService.update(this.contact).subscribe(() => {
-      this.contactService.showMessage('Contato atualizado com sucesso!');
-      this.router.navigate(['/contacts']);
-    });
+    if (this.contact.name === '' || this.contact.ddd === null || this.contact.number === null || this.contact.address === '') {
+      this.contactService.showMessage('Preencha todos os campos!', true);
+    } else {
+      this.contactService.update(this.contact).subscribe(() => {
+        this.contactService.showMessage('Contato atualizado com sucesso!');
+        this.router.navigate(['/contacts']);
+      });
+    }
   }
 
+  // Cancel and go back to the contact's list
   cancel(): void {
     this.router.navigate(['/contacts']);
   }

@@ -8,13 +8,15 @@
 
     <!-- DDD -->
     <mat-form-field>
-      <input matInput placeholder="DDD" [(ngModel)]="contact.ddd" name="ddd">
+      <input matInput placeholder="DDD" [(ngModel)]="contact.ddd" name="ddd" maxlength="2"
+        onkeypress="return event.charCode >= 48 && event.charCode <= 57">
     </mat-form-field>
 
     <!-- Cellphone/Telephone Number -->
     <!-- Número do Telefone/Celular -->
     <mat-form-field>
-      <input matInput placeholder="Número" [(ngModel)]="contact.number" name="number">
+      <input matInput placeholder="Número" [(ngModel)]="contact.number" name="number" maxlength="2"
+        onkeypress="return event.charCode >= 48 && event.charCode <= 57">
     </mat-form-field>
 
     <!-- Address/Endereço -->

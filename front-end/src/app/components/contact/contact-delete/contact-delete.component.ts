@@ -10,7 +10,12 @@ import { ContactService } from './../contact.service';
 })
 export class ContactDeleteComponent implements OnInit {
 
-  contact: Contact;
+  contact: Contact = {
+    name: '',
+    ddd: null,
+    number: null,
+    address: ''
+  }
 
   constructor(private contactService: ContactService, private router: Router, private route: ActivatedRoute) { }
 
@@ -21,6 +26,7 @@ export class ContactDeleteComponent implements OnInit {
     });
   }
 
+  // Method to delete the contact
   deleteContact(): void {
     this.contactService.delete(this.contact.id.toString()).subscribe(() => {
       this.contactService.showMessage('Contato excluído com sucesso!');
@@ -28,6 +34,7 @@ export class ContactDeleteComponent implements OnInit {
     });
   }
 
+  // Cancel and go back to the contact page
   cancel(): void {
     this.router.navigate(['/contacts']);
   }

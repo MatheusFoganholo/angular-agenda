@@ -12,7 +12,7 @@ export class ContactReadComponent implements OnInit {
   contacts: Contact[];
   displayedColumns: string[] = ['id', 'name', 'number', 'address', 'action']
 
-  constructor(private contactService: ContactService) {}
+  constructor(private contactService: ContactService) { }
 
   ngOnInit(): void {
     this.contactService.read().subscribe(contacts => {

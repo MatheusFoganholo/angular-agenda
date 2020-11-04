@@ -18,7 +18,7 @@ export class HeaderService {
   get headerData(): HeaderData {
     return this._headerData.value
   }
-  
+
   set headerData(headerData: HeaderData) {
     this._headerData.next(headerData)
   }
