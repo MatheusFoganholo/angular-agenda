@@ -27,6 +27,10 @@ const routes: Routes = [
   {
     path: "contacts/delete/:id",
     component: ContactDeleteComponent
+  },
+  {
+    path: "***",
+    redirectTo: ""
   }
 ];
 
